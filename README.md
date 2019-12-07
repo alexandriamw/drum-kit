@@ -1,0 +1,1 @@
+# Day 1 of the JavaScript 30 Challenge
