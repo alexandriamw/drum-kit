@@ -1,0 +1,33 @@
+body {
+    background: #290628;
+    font-family: 'Patua One', cursive;
+    color: #F0EFF4;
+}
+
+.keys {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    margin-top: 20%;
+}
+
+.key {
+    border: solid 4px #BF6B2B;
+    background: #701C52;
+    height: 100px;
+    width: 100px;
+    border-radius: 8px;
+    text-align: center;
+    transition: all .07s;
+}
+
+.playing {
+    transform: scale(1.1);
+    border-color: black;
+    box-shadow: 0 0 10px #E88235;
+}
+
+kbd {
+    display: block;
+    font-size: 32px;
+}
